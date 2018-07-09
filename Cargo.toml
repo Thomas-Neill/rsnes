@@ -1,0 +1,14 @@
+[package]
+name = "rsnes"
+version = "0.1.0"
+authors = ["tommy <tommydneill@gmail.com>"]
+
+[dependencies.sdl2]
+version = "*"
+default-features = false
+features = ["gfx"]
+
+[dependencies]
+bincode = "*"
+serde_derive = "*"
+serde = "*"
